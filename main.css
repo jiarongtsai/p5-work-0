@@ -32,12 +32,13 @@ li {
   position: absolute;
   height: 50px;
   width: 50px;
-  background-color: orange;
+  background-color: #f07;
 }
 
 .ventcamp {
-  border: 3px solid black;
+  border: 3px solid #888;
   width: 300px;
+  color: #f07;
   margin: auto;
   margin-top: 200px;
 }
@@ -57,11 +58,15 @@ nav a:link, nav a:visited {
 nav a:hover, nav a:active {
   text-decoration: none;
   color:#fff;
-  background-color: orange;
+  background-color: #f07;
 }
 
 content {
   width: 700px;
   height: 1000px;
   background-color: #111;
+}
+
+p {
+  color: #666;
 }
